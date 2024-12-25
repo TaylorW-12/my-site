@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="/favicon-16x16.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <!-- You can also use PNG format -->
+        <!-- <link rel="icon" href="images/favicon.png" type="image/png"> -->
+        <title>Taylor's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get in Touch</title>
+  <div class="sidebar">
+    <img src="\Profile Pic.jpg" alt="Avatar">
+    <h1 class="sidebar-heading"><a href="/">Taylor Washington</a></h1>
+    <p class="sidebar-p">Data Scientist/Data Engineer <br> Washington DC</br></p>
+    <ul class="sidebar-menu">
+        <li><a href="index.html">> Portfolio</a></li>
+        <li><a href="cv.html">> CV</a></li>
+        <li><a href="git.html">> Get in touch</a></li>
+    </ul>
+    <div class="social">
+        <a href="mailto:taylor.washington@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
+        <a href="linkedin.com/in/taylor-washington-4b024a16b" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/TaylorW-12" class="github"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+  <style>
+    
+    body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 16;
+    line-height: 1.55;
+    color: #706e6ed1;
+    padding: 0;
+    display: flex;
+    border: none;
+    margin: 0;
+    background-color: #2E294E;
+
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2E294E;
+    color: white;
+    padding: 0px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+   margin-top: 80px;
+   width: 145px;
+   height: 170px;
+   border-radius:40%; 
+   box-shadow: 0 0 7px rgba(230, 228, 228, 0.5); 
+}
+
+.sidebar-heading a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.sidebar-p {
+    color: #ecf0f1;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #BE97C6;
+    list-style-type: none;
+}
+
+.social {
+    margin-top: 20px;
+   
+}
+
+.social a {
+    color: #ecf0f1;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+    .contact-form {
+      background-color: #fff;
+      padding: 80px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      width: 100%;
+      max-width: 400px;
+      margin-left: 400px;
+      margin-top: 100px;
+      box-shadow: 0 0 7px rgba(227, 220, 220, 0.5);
+
+    }
+    .contact-form h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    .contact-form label {
+      font-size: 14px;
+      color: #333;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #333;
+    }
+    .contact-form button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="contact-form">
+  <h2>Get in Touch</h2>
+  <form action="send_email.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+
+</body>
+</html>
