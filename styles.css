@@ -118,7 +118,7 @@ transform: scale(5.0); /* Slightly increase the icon size on hover */
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: repeat(4, 1fr); /* Four columns next to each other */
-  gap: 40px; /* Uniform gap between columns */
+  gap: 20px; /* Uniform gap between columns */
   margin-left: 250px;
   background-color: #2E294E;
   margin-top:40px;
@@ -128,12 +128,12 @@ transform: scale(5.0); /* Slightly increase the icon size on hover */
 .container {
   display: grid;
   grid-template-rows: auto; /* Single column layout */
-  grid-gap: 40px; /* Uniform vertical gap between boxes */
+  grid-gap: 20px; /* Uniform vertical gap between boxes */
 }
 
 /* General styles for all boxes */
 .box {
-  width: 400px; /* Fixed width for all boxes */
+  width: 390px; /* Fixed width for all boxes */
   background-color: #f4f4f4;
   padding: 5px;
   overflow: hidden;
