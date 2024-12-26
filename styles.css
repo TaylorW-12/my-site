@@ -133,7 +133,7 @@ transform: scale(5.0); /* Slightly increase the icon size on hover */
 
 /* General styles for all boxes */
 .box {
-  width: 390px; /* Fixed width for all boxes */
+  width: 380px; /* Fixed width for all boxes */
   background-color: #f4f4f4;
   padding: 5px;
   overflow: hidden;
